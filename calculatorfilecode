@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ornate Thorough Yak</title>
+    <meta property="og:title" content="Ornate Thorough Yak" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="home-header">
+          <header data-thq="thq-navbar" class="home-navbar-interactive">
+            <span class="home-logo">CALCULATOR</span>
+            <div data-thq="thq-navbar-nav" class="home-desktop-menu">
+              <nav class="home-links">
+                <a href="functions.html">Home</a>
+                <span class="home-nav2">
+                  <a href="file:///C:/Users/Rahul/OneDrive/Desktop/calculator%20project/basiccal.html">
+                    <button> Basic Calculator </button> 
+                    </a>
+                  </span>
+                <span class="home-nav3">
+                  <a href="file:///C:/Users/Rahul/OneDrive/Documents/FEE%20lectures%20sem%201/calculatorfee.html">
+                    <button> Scientific Calculator </button> 
+                    </a>
+                  </span>
+                <span class="home-nav4">
+                  <a href="file:///C:/Users/Rahul/OneDrive/Desktop/calculator%20project/bmi.html">
+                    <button> BMI Calculator </button> 
+                    </a>
+                </span>
+                <span class="home-nav5">
+                  <a href="file:///C:/Users/Rahul/OneDrive/Desktop/calculator%20project/loan.html">
+                    <button> Loan Calculator </button> 
+                    </a>
+                  </span>
+              </nav>
+              <div class="home-buttons">
+                <a href="file:///C:/Users/Rahul/OneDrive/Desktop/calculator%20project/login.html">
+                <button class="home-login button">Login</button>
+  
+                <button class="home-register button">Register</button>
+                </a>
+              </div>
+            </div>
+            <div data-thq="thq-burger-menu" class="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+              <div class="home-nav">
+                <div class="home-top">
+                  <span class="home-logo1">CALCULATOR</span>
+                  <div data-thq="thq-close-menu" class="home-close-menu">
+                    <svg viewBox="0 0 1024 1024" class="home-icon02">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav class="home-links1">
+                  <span class="home-nav11">Home</span>
+                  <span class="home-nav21">
+                    <a href="file:///C:/Users/Rahul/OneDrive/Desktop/calculator%20project/basiccal.html">
+                    <button> Basic Calculator </button> 
+                    </a>
+                  </span>
+                  <span class="home-nav31">Scientific Calculator</span>
+                  <span class="home-nav41">BMI Calculator</span>
+                  <span class="home-nav51">Loan Calculator</span>
+                </nav>
+                <div class="home-buttons1">
+                  <button class="home-login1 button">Login</button>
+                  <button class="home-register1 button">Register</button>
+                </div>
+              </div>
+              <div>
+                <svg viewBox="0 0 950.8571428571428 1024" class="home-icon04">
+                  <path
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                  ></path></svg
+                ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon06">
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path></svg
+                ><svg viewBox="0 0 602.2582857142856 1024" class="home-icon08">
+                  <path
+                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </header>
+        </div>
+        <div class="home-hero">
+          <div class="home-hero1">
+            <div class="home-container01">
+              <h1 class="home-hero-heading heading1">Calculator Plus</h1>
+              <span class="home-hero-sub-heading">
+                Your all-in-one calculator solution
+              </span>
+              <div class="home-btn-group">
+                <a href="file:///C:/Users/Rahul/OneDrive/Desktop/calculator%20project/login.html">
+                <button class="home-hero-button1 button">Get Started</button>
+                </a>
+                <a href="file:///C:/Users/Rahul/OneDrive/Desktop/calculator%20project/functions.html">
+                <button class="home-hero-button2 button"> 
+                  Learn More&nbsp;→
+                </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-details">
+          <div class="home-details1">
+            <div class="home-container02">
+              <span class="home-text sectionTitle">
+                <span>Details</span>
+                <br />
+              </span>
+              <h2 class="home-details-heading heading2">
+                Unleash the Power of Calculation
+              </h2>
+              <span class="home-details-sub-heading">
+                Calculator Plus is a versatile tool that provides accurate and
+                efficient calculations for all your mathematical needs. With a
+                user-friendly interface and a wide range of functions, it
+                simplifies complex calculations and saves you time.
+              </span>
+            </div>
+            <img
+              alt="image"
+              src="https://images.unsplash.com/photo-1636257020938-c8d6413fc3a2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg2MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              class="home-details-image"
+            />
+          </div>
+        </div>
+        <div class="home-features">
+          <div class="home-features-container"></div>
+        </div>
+        <div class="home-pricing">
+          <div class="home-pricing1">
+            <div class="home-container03">
+              <span class="home-text03 sectionTitle">
+                <span>Pricing</span>
+                <br />
+              </span>
+              <h2 class="home-pricing-heading heading2">
+                Choose the Perfect Plan for You
+              </h2>
+              <span class="home-pricing-sub-heading">
+                Upgrade to unlock more powerful features and calculations
+              </span>
+            </div>
+            <div class="home-container04">
+              <div class="home-pricing-card">
+                <div class="home-container05">
+                  <span class="home-text06 heading3">Free</span>
+                  <span class="home-free-plan-description">
+                    Access basic math functions and calculate BMI for free
+                  </span>
+                </div>
+                <div class="home-container06">
+                  <span class="home-text07">
+                    <span>$</span>
+                    <span></span>
+                  </span>
+                  <span class="home-free-plan-price">0</span>
+                </div>
+                <div class="home-container07">
+                  <div class="home-container08">
+                    <span class="home-text10">✔</span>
+                    <span class="home-free-plan-features">
+                      Basic math functions (addition, subtraction,
+                      multiplication, division)
+                    </span>
+                  </div>
+                  <div class="home-container09">
+                    <span class="home-text11">✔</span>
+                    <span class="home-free-plan-features1">BMI calculator</span>
+                  </div>
+                  <div class="home-container10">
+                    <span class="home-text12">✔</span>
+                    <span class="home-free-plan-features2">
+                      Limited access to scientific functions
+                    </span>
+                  </div>
+                  <div class="home-container11">
+                    <span class="home-text13">✔</span>
+                    <span class="home-free-plan-features3">
+                      No access to loan calculator and CGPA calculator
+                    </span>
+                  </div>
+                </div>
+                <button class="home-button button">Continue with Free</button>
+              </div>
+              <div class="home-pricing-card1">
+                <div class="home-container12">
+                  <span class="home-text14 heading3">BASIC</span>
+                  <span class="home-basic-plan-description">
+                    Unlock advanced features and access all calculators
+                  </span>
+                </div>
+                <div class="home-container13">
+                  <span class="home-text15">
+                    <span>$</span>
+                    <span></span>
+                  </span>
+                  <span class="home-basic-plan-pricing">7</span>
+                  <span class="home-text18">/ month</span>
+                </div>
+                <div class="home-container14">
+                  <div class="home-container15">
+                    <span class="home-text19">✔</span>
+                    <span class="home-text20">All features of FREE plan</span>
+                  </div>
+                  <div class="home-container16">
+                    <span class="home-text21">✔</span>
+                    <span class="home-basic-plan-features">
+                      All features of the Free Plan
+                    </span>
+                  </div>
+                  <div class="home-container17">
+                    <span class="home-text22">✔</span>
+                    <span class="home-basic-plan-features1">
+                      Full access to scientific functions (trigonometry,
+                      logarithms, etc.)
+                    </span>
+                  </div>
+                  <div class="home-container18">
+                    <span class="home-text23">✔</span>
+                    <span class="home-basic-plan-features2">
+                      Loan calculator
+                    </span>
+                  </div>
+                  <div class="home-container19">
+                    <span class="home-text24">✔</span>
+                    <span class="home-basic-plan-features3">
+                      CGPA calculator
+                    </span>
+                  </div>
+                </div>
+                <button class="home-button1 button">Try the Basic plan</button>
+              </div>
+              <div class="home-pricing-card2">
+                <div class="home-container20">
+                  <span class="home-text25 heading3">
+                    <span>PRO</span>
+                    <br />
+                  </span>
+                  <span class="home-pro-plan-description">
+                    Get premium benefits and exclusive features
+                  </span>
+                </div>
+                <div class="home-container21">
+                  <span class="home-text28">
+                    <span>$</span>
+                    <span></span>
+                  </span>
+                  <span class="home-pro-plan-pricing">20</span>
+                  <span class="home-text31">/ month</span>
+                </div>
+                <div class="home-container22">
+                  <div class="home-container23">
+                    <span class="home-text32">✔</span>
+                    <span class="home-text33">
+                      &nbsp;All features of BASIC plan
+                    </span>
+                  </div>
+                  <div class="home-container24">
+                    <span class="home-text34">✔</span>
+                    <span class="home-pro-plan-features">
+                      All features of the Basic Plan
+                    </span>
+                  </div>
+                  <div class="home-container25">
+                    <span class="home-text35">✔</span>
+                    <span class="home-pro-plan-features1">
+                      Priority customer support
+                    </span>
+                  </div>
+                  <div class="home-container26">
+                    <span class="home-text36">✔</span>
+                    <span class="home-pro-plan-features2">
+                      Additional advanced mathematical functions
+                    </span>
+                  </div>
+                </div>
+                <button class="home-button2 button">Try the PRO plan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-gallery">
+          <div class="home-gallery1">
+            <h1 class="home-gallery-heading heading2">Calculator Features</h1>
+            <span class="home-gallery-sub-heading">
+              Explore the various features of our calculator
+            </span>
+            <div class="home-container27">
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1659731415329-061b7e2dbd83?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name1"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1695326462429-b4735ee1aa2e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name3"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1564939558297-fc396f18e5c7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name2"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1609138429624-82b48e5f4cb0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name4"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name5"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1625225233840-695456021cde?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name6"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1562568068-ea24dcbf3c78?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name7"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1674049406292-4d4e355a9853?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name8"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1647361552843-730decc29bb3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name9"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1646569278916-518217d0ad68?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name10"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1511376868136-742c0de8c9a8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+              <div
+                class="gallery-card3-gallery-card gallery-card3-root-class-name11"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1494887205043-c5f291293cf6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTc4Nzg1OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="gallery-card3-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-banner">
+          <div class="home-banner1">
+            <h1 class="home-banner-heading heading2">Calculate with Ease</h1>
+            <span class="home-banner-sub-heading">
+              Explore our advanced features for basic math, scientific
+              functions, BMI, loan, and CGPA calculations.
+            </span>
+            <button class="home-banner-button button">Learn More</button>
+          </div>
+        </div>
+        <div class="home-faq">
+          <div class="home-faq-container">
+            <div class="home-faq1">
+              <div class="home-container28">
+                <span class="home-text37 sectionTitle">
+                  <span>FAQ</span>
+                  <br />
+                </span>
+                <h2 class="home-text40 heading2">Common questions</h2>
+                <span class="home-text41">
+                  <span>
+                    Here are some of the most common questions that we get.
+                  </span>
+                  <br />
+                  <span>
+                    <span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                    <span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                    <span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                  </span>
+                </span>
+              </div>
+              <div class="home-container29">
+                <div class="question-container">
+                  <span class="question-text heading4">
+                    <span>What functions can the calculator perform?</span>
+                  </span>
+                  <span class="question-text1">
+                    <span>
+                      The calculator can perform basic math functions such as
+                      addition, subtraction, multiplication, and division. It
+                      also has scientific functions like square root,
+                      exponentiation, and trigonometric functions. Additionally,
+                      it includes a BMI calculator to calculate body mass index,
+                      a loan calculator to determine loan payments, and a CGPA
+                      calculator to calculate cumulative grade point average.
+                    </span>
+                  </span>
+                </div>
+                <div class="question-container">
+                  <span class="question-text heading4">
+                    <span>How accurate is the BMI calculator?</span>
+                  </span>
+                  <span class="question-text1">
+                    <span>
+                      The BMI calculator provides accurate results based on the
+                      input of height and weight. However, please note that BMI
+                      is a general indicator and may not take into account
+                      individual factors such as muscle mass or body
+                      composition.
+                    </span>
+                  </span>
+                </div>
+                <div class="question-container">
+                  <span class="question-text heading4">
+                    <span>
+                      Can I use the loan calculator for different types of
+                      loans?
+                    </span>
+                  </span>
+                  <span class="question-text1">
+                    <span>
+                      Yes, the loan calculator is designed to calculate loan
+                      payments for various types of loans including personal
+                      loans, car loans, home loans, etc. You can input the loan
+                      amount, interest rate, and loan term to get accurate
+                      payment calculations.
+                    </span>
+                  </span>
+                </div>
+                <div class="question-container">
+                  <span class="question-text heading4">
+                    <span>
+                      What is CGPA and how does the CGPA calculator work?
+                    </span>
+                  </span>
+                  <span class="question-text1">
+                    <span>
+                      CGPA stands for Cumulative Grade Point Average and is a
+                      measure of academic performance. The CGPA calculator takes
+                      into account the grade points earned in each course and
+                      calculates the average. It provides an accurate
+                      representation of your overall academic performance.
+                    </span>
+                  </span>
+                </div>
+                <div class="question-container">
+                  <span class="question-text heading4">
+                    <span>Can I use the calculator on my mobile device?</span>
+                  </span>
+                  <span class="question-text1">
+                    <span>
+                      Yes, the calculator is fully responsive and can be used on
+                      any device including desktops, laptops, tablets, and
+                      mobile phones. You can access all the features and
+                      calculations on-the-go.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-footer">
+          <footer class="home-footer1">
+            <div class="home-container30">
+              <span class="home-logo2">CALCULATOR</span>
+              <nav class="home-nav1">
+                <span class="home-nav12">Home</span>
+                <span class="home-nav22">Basic Calculator</span>
+                <span class="home-nav32">Scientific Calculator</span>
+                <span class="home-nav42">BMI Calculator</span>
+                <span class="home-nav52">Loan Calculator</span>
+              </nav>
+            </div>
+            <div class="home-separator"></div>
+            <div class="home-container31">
+              <span class="home-text58">
+                © 2023 myCompany, All Rights Reserved.
+              </span>
+              <div class="home-icon-group1">
+                <svg viewBox="0 0 950.8571428571428 1024" class="home-icon10">
+                  <path
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                  ></path></svg
+                ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon12">
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path></svg
+                ><svg viewBox="0 0 602.2582857142856 1024" class="home-icon14">
+                  <path
+                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
