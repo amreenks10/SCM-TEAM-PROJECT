@@ -38,7 +38,7 @@
 					placeholder="youremail@email.com">
 				<input type="password"
 					class="password ele"
-					placeholder="password">
+					placeholder=" fill your password here ">
 				<button class="clkbtn">Login</button>
 			</div>
 
@@ -55,7 +55,7 @@
 					placeholder="password">
 				<input type="password"
 					class="password ele"
-					placeholder="Confirm password">
+					placeholder="Confirm your password">
 				<button class="clkbtn">Signup</button>
 			</div>
 		</div>
