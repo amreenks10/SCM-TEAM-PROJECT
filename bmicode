@@ -11,13 +11,13 @@
     <h3><b>B</b>ody <b>M</b>ass <b>I</b>ndex Calculator</h3>
   <form class="form" id="form" onsubmit="return validateForm()">
   <div class="row-one">
-    <input type="text" class="text-input" id="age" autocomplete="off" required/><p class="text">Age</p>
+    <input type="text" class="text-input" id="age" autocomplete="off" required/><p class="text">Male</p>
     <label class="container">
     <input type="radio" name="radio" id="f"><p class="text">Female</p>
       <span class="checkmark"></span>
     </label>
     <label class="container">
-    <input type="radio" name="radio" id="m"><p class="text">Male</p>
+    <input type="radio" name="radio" id="m"><p class="text">Age</p>
       <span class="checkmark"></span>
     </label>
     </div>
