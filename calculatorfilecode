@@ -22,7 +22,7 @@
         text-decoration: none;
         text-transform: none;
         letter-spacing: normal;
-        line-height: 1.15;
+        line-height: 1.16;
         color: var(--dl-color-gray-black);
         background-color: var(--dl-color-gray-white);
 
@@ -120,7 +120,7 @@
                   <span class="home-nav11">Home</span>
                   <span class="home-nav21">
                     <a href="file:///C:/Users/Rahul/OneDrive/Desktop/calculator%20project/basiccal.html">
-                    <button> Basic Calculator </button> 
+                    <button> Core Calculator </button> 
                     </a>
                   </span>
                   <span class="home-nav31">Scientific Calculator</span>
