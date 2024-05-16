@@ -117,7 +117,7 @@ ELMonthly_payment.value = monthly.toFixed(2);
 ELtotal_payment.value = (monthly*calculatedPayment).toFixed(2);
 ELtotal_interest.value = ((monthly*calculatedPayment)-principal).toFixed(2);//fix to 2 deciman places
 //Show Results
-document.getElementById('results').style.display='block';
+document.getElementById('results').style.display='Block';
 //Hide Loader
 document.getElementById('loading').style.display='none';
 }else{
